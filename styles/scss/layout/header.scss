@@ -1,6 +1,15 @@
 header {
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    img {
+        margin: 1em 2em;
+    }
+}
+.hide {
+    position: absolute !important;
+    top:-9999px !important;
+    left: -9999px !important;
 }

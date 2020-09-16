@@ -47,8 +47,43 @@ table {
 header {
   width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+header img {
+  margin: 1em 2em;
+}
+
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2d2640;
+  margin: 0;
+}
+.hero h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  text-align: center;
+  color: #fafafa;
+  margin: 1em 3em;
+  z-index: 1;
+}
+
+.bg-pattern-top {
+  position: absolute;
+}
+
+.bg-pattern-bottom {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
