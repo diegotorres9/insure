@@ -67,23 +67,82 @@ header img {
   align-items: center;
   justify-content: center;
   background: #2d2640;
-  margin: 0;
+  text-align: center;
 }
 .hero h1 {
   font-family: "DM Serif Display", serif;
   font-size: 48px;
   text-align: center;
   color: #fafafa;
-  margin: 1em 3em;
+  margin-top: 3em;
   z-index: 1;
 }
-
-.bg-pattern-top {
-  position: absolute;
+.hero p {
+  font-family: "Karla", sans-serif;
+  color: #fafafa;
+  margin: 2em 0;
+  font-weight: 400;
+  line-height: 1.8rem;
+  letter-spacing: 1px;
+}
+.hero .view-plans-link {
+  border: 2px solid #fafafa;
+  font-family: "Karla", sans-serif;
+  text-decoration: none;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 20px;
+  width: 120px;
+  margin-bottom: 6em;
+  letter-spacing: 1px;
 }
 
-.bg-pattern-bottom {
-  position: relative;
+.were-different-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.were-different-block h2 {
+  font-family: "DM Serif Display", serif;
+  margin: 2em 0;
+  font-size: 48px;
+}
+.were-different-block .wd-snappy-process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.were-different-block .wd-snappy-process h3 {
+  font-family: "DM Serif Display", serif;
+}
+.were-different-block .wd-snappy-process p {
+  font-family: "Karla", sans-serif;
+}
+.were-different-block .wd-affordable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.were-different-block .wd-affordable h3 {
+  font-family: "DM Serif Display", serif;
+}
+.were-different-block .wd-affordable p {
+  font-family: "Karla", sans-serif;
+}
+.were-different-block .wd-people-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.were-different-block .wd-people-first h3 {
+  font-family: "DM Serif Display", serif;
+}
+.were-different-block .wd-people-first p {
+  font-family: "Karla", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

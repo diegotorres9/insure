@@ -4,19 +4,81 @@
     align-items: center;
     justify-content: center;
     background: $darkViolet;
-    margin: 0;
+    text-align: center;
+    // background-image: url("../../../images/bg-pattern-intro-left-mobile.svg");
+    // background-repeat: no-repeat;
     h1 {
         font-family: $dmSerifDisplay;
         font-size: 48px;
         text-align: center;
         color: $veryLightGray;
-        margin: 1em 3em;
+        margin-top: 3em;
         z-index: 1;
     }
+    p {
+        font-family: $karla;
+        color: $veryLightGray;
+        margin: 2em 0;
+        font-weight: 400;
+        line-height: 1.8rem;
+        letter-spacing: 1px;
+    }
+    .view-plans-link {
+        border: 2px solid $veryLightGray;
+        font-family: $karla;
+        text-decoration: none;
+        color: $veryLightGray;
+        text-transform: uppercase;
+        padding: 20px;
+        width: 120px;
+        margin-bottom: 6em;
+        letter-spacing: 1px;
+    }
 }
-.bg-pattern-top {
-    position: absolute;
-}
-.bg-pattern-bottom {
-    position: relative;
+.were-different-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        font-family: $dmSerifDisplay;
+        margin: 2em 0;
+        font-size: 48px;
+    }
+    .wd-snappy-process {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3 {
+            font-family: $dmSerifDisplay;
+        }
+        p {
+            font-family: $karla;
+        }
+    }
+    .wd-affordable {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3 {
+            font-family: $dmSerifDisplay;
+        }
+        p {
+            font-family: $karla;
+        }
+    }
+    .wd-people-first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3 {
+            font-family: $dmSerifDisplay;
+        }
+        p {
+            font-family: $karla;
+        }
+    }
 }
