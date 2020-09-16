@@ -71,16 +71,14 @@ header img {
 }
 .hero h1 {
   font-family: "DM Serif Display", serif;
-  font-size: 48px;
+  font-size: 64px;
   text-align: center;
   color: #fafafa;
-  margin-top: 3em;
   z-index: 1;
 }
 .hero p {
   font-family: "Karla", sans-serif;
   color: #fafafa;
-  margin: 2em 0;
   font-weight: 400;
   line-height: 1.8rem;
   letter-spacing: 1px;
@@ -93,7 +91,6 @@ header img {
   text-transform: uppercase;
   padding: 20px;
   width: 120px;
-  margin-bottom: 6em;
   letter-spacing: 1px;
 }
 
@@ -105,7 +102,6 @@ header img {
 }
 .were-different-block h2 {
   font-family: "DM Serif Display", serif;
-  margin: 2em 0;
   font-size: 48px;
 }
 .were-different-block .wd-snappy-process {
@@ -114,11 +110,18 @@ header img {
   align-items: center;
   justify-content: center;
 }
+.were-different-block .wd-snappy-process img {
+  width: 125px;
+  height: 125px;
+}
 .were-different-block .wd-snappy-process h3 {
   font-family: "DM Serif Display", serif;
+  font-size: 36px;
 }
 .were-different-block .wd-snappy-process p {
   font-family: "Karla", sans-serif;
+  text-align: center;
+  font-size: 16px;
 }
 .were-different-block .wd-affordable {
   display: flex;
@@ -126,11 +129,18 @@ header img {
   align-items: center;
   justify-content: center;
 }
+.were-different-block .wd-affordable img {
+  width: 125px;
+  height: 125px;
+}
 .were-different-block .wd-affordable h3 {
   font-family: "DM Serif Display", serif;
+  font-size: 36px;
 }
 .were-different-block .wd-affordable p {
   font-family: "Karla", sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 .were-different-block .wd-people-first {
   display: flex;
@@ -138,11 +148,45 @@ header img {
   align-items: center;
   justify-content: center;
 }
+.were-different-block .wd-people-first img {
+  width: 125px;
+  height: 125px;
+}
 .were-different-block .wd-people-first h3 {
   font-family: "DM Serif Display", serif;
+  font-size: 36px;
 }
 .were-different-block .wd-people-first p {
   font-family: "Karla", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.how-we-work-block {
+  background-color: #2d2640;
+  background-image: url("../../../images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.how-we-work-block h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  text-align: center;
+  color: #fafafa;
+}
+.how-we-work-block .how-we-work-link {
+  border: 2px solid #fafafa;
+  font-family: "Karla", sans-serif;
+  text-decoration: none;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 20px;
+  width: max-content;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
