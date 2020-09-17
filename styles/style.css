@@ -189,4 +189,34 @@ header img {
   letter-spacing: 1px;
 }
 
+footer {
+  background-image: url("../../../images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-line {
+  height: max-content;
+}
+footer .footer-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr auto auto;
+  grid-row-gap: 20px;
+}
+footer .footer-items div {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 2;
+  font-weight: 700;
+}
+footer .footer-items div .top-item {
+  color: #837d87;
+}
+
 /*# sourceMappingURL=style.css.map */
