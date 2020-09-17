@@ -2,7 +2,7 @@
     background-color: $darkViolet;
     background-image: url("../../../images/bg-pattern-how-we-work-mobile.svg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top right;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@
         font-size: 48px;
         text-align: center;
         color: $veryLightGray;
-        margin: 2em 1rem;
+        margin: 1em 1rem;
     }
     .how-we-work-link {
         border: 2px solid $veryLightGray;
