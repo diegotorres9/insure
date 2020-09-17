@@ -53,7 +53,7 @@ main {
 main .bg-pattern-right {
   align-self: flex-end;
   position: absolute;
-  margin-top: 11em;
+  margin-top: 8em;
 }
 
 header {
