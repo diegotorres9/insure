@@ -7,11 +7,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem 1em;
+    height: max-content;
     h2 {
         font-family: $dmSerifDisplay;
         font-size: 48px;
         text-align: center;
         color: $veryLightGray;
+        margin: 2em 1rem;
     }
     .how-we-work-link {
         border: 2px solid $veryLightGray;
@@ -23,5 +26,6 @@
         width: max-content;
         // margin-bottom: 6em;
         letter-spacing: 1px;
+        margin: 0 1rem 4em 1rem;
     }
 }
