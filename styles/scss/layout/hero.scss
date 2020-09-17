@@ -5,14 +5,15 @@
     justify-content: center;
     background: $darkViolet;
     text-align: center;
-    // background-image: url("../../../images/bg-pattern-intro-left-mobile.svg");
-    // background-repeat: no-repeat;
+    background-image: url("../../../images/bg-pattern-intro-left-mobile.svg");
+    background-repeat: no-repeat;
     h1 {
         font-family: $dmSerifDisplay;
-        font-size: 64px;
+        font-size: 48px;
         text-align: center;
         color: $veryLightGray;
         z-index: 1;
+        margin: 2em 1rem 0 1rem;
     }
     p {
         font-family: $karla;
@@ -20,6 +21,8 @@
         font-weight: 400;
         line-height: 1.8rem;
         letter-spacing: 1px;
+        z-index: 1;
+        margin: 2em 1rem 0 1rem;
     }
     .view-plans-link {
         border: 2px solid $veryLightGray;
@@ -29,7 +32,8 @@
         text-transform: uppercase;
         padding: 20px;
         width: 120px;
-        // margin-bottom: 6em;
+        margin: 2em 1rem 4em 1rem;
         letter-spacing: 1px;
+        z-index: 3;
     }
 }
