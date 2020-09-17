@@ -4,9 +4,9 @@ main {
     align-items: center;
     justify-content: center;
     .bg-pattern-right {
-        align-self: flex-end;
-        justify-self: start;
         position: absolute;
-        margin-top: 2em;
+        align-self: flex-end;
+        margin-bottom: 42em;
+        z-index: 2;
     }
 }

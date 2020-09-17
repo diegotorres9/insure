@@ -51,10 +51,10 @@ main {
   justify-content: center;
 }
 main .bg-pattern-right {
-  align-self: flex-end;
-  justify-self: start;
   position: absolute;
-  margin-top: 2em;
+  align-self: flex-end;
+  margin-bottom: 42em;
+  z-index: 2;
 }
 
 header {
@@ -83,6 +83,7 @@ header img {
   text-align: center;
   background-image: url("../../../images/bg-pattern-intro-left-mobile.svg");
   background-repeat: no-repeat;
+  background-position: top left;
 }
 .hero h1 {
   font-family: "DM Serif Display", serif;
@@ -264,6 +265,7 @@ footer .footer-items div {
 }
 footer .footer-items div .top-item {
   color: #837d87;
+  margin: 2em 0;
 }
 
 /*# sourceMappingURL=style.css.map */
