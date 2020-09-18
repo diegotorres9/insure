@@ -5,9 +5,9 @@
     justify-content: center;
     background: $darkViolet;
     text-align: center;
-    background-image: url("../../../images/bg-pattern-intro-left-mobile.svg");
+    background-image: url("../../../images/bg-pattern-intro-left-mobile.svg"), url("../../../images/bg-pattern-intro-right-mobile.svg");
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: top left, top 420px right;
     h1 {
         font-family: $dmSerifDisplay;
         font-size: 48px;
