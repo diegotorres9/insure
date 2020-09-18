@@ -4,9 +4,10 @@ main {
     align-items: center;
     justify-content: center;
     .bg-pattern-right {
+        display: inline-block;
+        z-index: 2;
         position: absolute;
         align-self: flex-end;
-        // margin-bottom: 40em;
-        z-index: 2;
+        margin-bottom: 672px !important;
     }
 }
