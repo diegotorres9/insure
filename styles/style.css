@@ -44,6 +44,12 @@ table {
   border-spacing: 0;
 }
 
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -66,12 +72,6 @@ header {
 }
 header img {
   margin: 1em 2em;
-}
-
-.hide {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
 }
 
 .hero {
