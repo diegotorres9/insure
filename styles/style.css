@@ -70,8 +70,8 @@ header {
   justify-content: space-between;
   background-color: #fafafa;
 }
-header img {
-  margin: 1em 2em;
+header img, header .mobile-icon {
+  margin: 1em 1em;
 }
 
 .hero {

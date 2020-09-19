@@ -5,7 +5,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: $veryLightGray;
-    img {
-        margin: 1em 2em;
+    img, .mobile-icon {
+        margin: 1em 1em;
     }
 }
