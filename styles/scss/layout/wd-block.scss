@@ -5,14 +5,14 @@
     justify-content: center;
     background-image: url('../../../images/bg-pattern-intro-right-mobile.svg');
     background-repeat: no-repeat;
-    background-position: top -100px right;
+    background-position: top -80px right;
     .different-block-line {
-        margin: 4em 1rem 0 0;
+        margin: 6em 1rem 0 0;
     }
     h2 {
         font-family: $dmSerifDisplay;
-        font-size: 48px;
-        margin: 2rem 0 2em 0;
+        font-size: 42px;
+        margin: 2rem 0;
     }
     .wd-snappy-process {
         display: flex;
@@ -84,3 +84,13 @@
         }
     }
 }
+@media screen and (min-width: 375px) {
+    .were-different-block {
+        .different-block-line {
+            margin: 4em 1em 0 0;
+        }
+        h2 {
+            font-size: 48px;
+        }
+    }
+} 
