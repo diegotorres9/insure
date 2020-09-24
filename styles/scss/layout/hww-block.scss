@@ -1,31 +1,18 @@
 .how-we-work-block {
     background-color: $darkViolet;
-    background-image: url("../../../images/bg-pattern-how-we-work-mobile.svg");
+    background-image: url('../../../images/bg-pattern-how-we-work-mobile.svg');
     background-repeat: no-repeat;
     background-position: top right;
+    margin: 1em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 2rem 1em;
-    height: max-content;
+    justify-self: center;
     h2 {
+        font-size: 42px;
         font-family: $dmSerifDisplay;
-        font-size: 48px;
         text-align: center;
+        margin: 1em 0 0 0;
         color: $veryLightGray;
-        margin: 1em 1rem;
-    }
-    .how-we-work-link {
-        border: 2px solid $veryLightGray;
-        font-family: $karla;
-        text-decoration: none;
-        color: $veryLightGray;
-        text-transform: uppercase;
-        padding: 20px;
-        width: max-content;
-        // margin-bottom: 6em;
-        letter-spacing: 1px;
-        margin: 0 1rem 4em 1rem;
     }
 }

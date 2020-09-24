@@ -1,50 +1,41 @@
 .hero {
+    background-color: $darkViolet;
+    color: $veryLightGray;
+    text-align: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background: $darkViolet;
-    text-align: center;
-    background-image: url("../../../images/bg-pattern-intro-left-mobile.svg"), url("../../../images/bg-pattern-intro-right-mobile.svg");
-    background-repeat: no-repeat;
-    background-position: top left, top 520px right;
+    .bg-pattern-left-mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .bg-pattern-right-mobile {
+        position: absolute;
+        top: 380px;
+        right: 0;
+        z-index: 1;
+    }
     h1 {
         font-family: $dmSerifDisplay;
-        font-size: 48px;
-        text-align: center;
-        color: $veryLightGray;
-        z-index: 1;
-        margin: 2em 1rem 0 1rem;
+        font-size: 42px;
+        z-index: 2;
+        margin: 2em 0 0 0;
     }
     p {
         font-family: $karla;
-        color: $veryLightGray;
         font-weight: 400;
-        line-height: 1.8rem;
-        letter-spacing: 1px;
-        z-index: 1;
-        margin: 2em 1rem 0 1rem;
-    }
-    .view-plans-link {
-        border: 2px solid $veryLightGray;
-        font-family: $karla;
-        text-decoration: none;
-        color: $veryLightGray;
-        text-transform: uppercase;
-        padding: 20px;
-        width: 120px;
-        margin: 2em 1rem 4em 1rem;
-        letter-spacing: 1px;
-        z-index: 3;
+        margin: 2em 1em 0 1em;
+        text-align: center;
+        line-height: 1.6;
     }
 }
 @media screen and (min-width: 375px) {
     .hero {
-        background-position: top left, top 445px right;
-    }
-}
-@media screen and (min-width: 414px) {
-    .hero {
-        background-position: top left, top 415px right;
+        .bg-pattern-right-mobile {
+            top: 320px;
+        }
     }
 }
