@@ -3,16 +3,53 @@
     background-image: url('../../../images/bg-pattern-how-we-work-mobile.svg');
     background-repeat: no-repeat;
     background-position: top right;
-    margin: 1em 1em;
+    margin: 4em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-self: center;
+    width: calc(100% - 32px);
     h2 {
         font-size: 42px;
         font-family: $dmSerifDisplay;
         text-align: center;
-        margin: 1em 0 0 0;
+        margin: 1em 1em 0 1em;
         color: $veryLightGray;
+
+    }
+}
+// @media screen and (min-width: 700px) {
+//     .how-we-work-block {
+//         width: 100%;
+//     }
+// }
+@media screen and (min-width: 700px) {
+    .how-we-work-block {
+        background-image: url('../../../images/bg-pattern-how-we-work-desktop.svg');
+        // height: max-content;
+        // width: 1320px;
+        margin: 4em 4em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: calc(100% - 64px);
+        h2 {
+            margin: 1em 3em;
+            text-align: left;
+        }
+        .how-we-work-link {
+            margin: 1em 3em;
+        }
+    }
+}
+// @media screen and (min-width: 1440px) {
+//     .how-we-work-block {
+//         width: calc(1440px - 64px);
+//     }
+// }
+@media screen and (min-width: 1100px) {
+    .how-we-work-block {
+        width: calc(100% - 64px);
     }
 }
