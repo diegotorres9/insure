@@ -87,9 +87,36 @@ header {
   z-index: 10;
 }
 header img, header .mobile-icon {
-  margin: 1em 1em;
+  margin: 2em 2em;
 }
 
+@media screen and (min-width: 540px) {
+  header .menu {
+    margin: 0 15px;
+  }
+  header .menu ul {
+    display: flex;
+  }
+  header .menu ul li {
+    text-transform: uppercase;
+    font-family: "Karla", sans-serif;
+    color: #837d87;
+    margin: 0 5px;
+  }
+  header .menu ul li:nth-child(4) {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 700px) {
+  header .menu {
+    margin: 0 2em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  header img, header .menu {
+    margin: 2em 4em;
+  }
+}
 .hero {
   background-color: #2d2640;
   color: #fafafa;
@@ -198,6 +225,12 @@ footer {
   justify-content: center;
   position: relative;
   width: 100%;
+  background-image: url("../../../images/bg-pattern-footer-mobile.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+footer svg {
+  z-index: 2;
 }
 footer .footer-bg {
   position: absolute;
@@ -223,10 +256,11 @@ footer .logo-and-icons .social-media-icons .icon {
 }
 footer .footer-items {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, auto);
-  row-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
   z-index: 2;
+  width: 100%;
+  margin-bottom: 2em;
 }
 footer .footer-items .item {
   font-family: "Karla", sans-serif;
@@ -245,8 +279,41 @@ footer .footer-items .item li {
 footer .footer-items .item li a {
   text-decoration: none;
   color: #000;
+  color: #2b272f;
+  font-size: 16px;
 }
 
+@media screen and (min-width: 375px) {
+  footer {
+    background-image: url("../../../images/bg-pattern-footer-desktop.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 540px) {
+  footer .logo-and-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  footer .logo-and-icons .insure-logo {
+    margin: 0 4em 0 4em;
+  }
+  footer .logo-and-icons .social-media-icons {
+    margin: 0 4em 0 4em;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer .footer-items {
+    margin: 0 4em 2em 4em;
+  }
+  footer .footer-items .item {
+    text-align: left;
+    margin: 0 4em;
+  }
+}
 .mobile-menu {
   display: flex;
   flex-direction: column;

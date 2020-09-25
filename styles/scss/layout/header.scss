@@ -7,6 +7,39 @@ header {
     background-color: $veryLightGray;
     z-index: 10;
     img, .mobile-icon {
-        margin: 1em 1em;
+        margin: 2em 2em;
+    }
+}
+@media screen and (min-width: 540px) {
+    header {
+        .menu {
+            margin: 0 15px;
+            ul {
+                display: flex;
+                li {
+                    text-transform: uppercase;
+                    font-family: $karla;
+                    color: $darkGrayishViolet;
+                    margin: 0 5px;
+                    &:nth-child(4) {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 700px) {
+    header {
+        .menu { 
+            margin: 0 2em;
+        }
+    }
+}
+@media screen and (min-width: 1000px) {
+    header {
+        img, .menu {
+            margin: 2em 4em;
+        }
     }
 }
