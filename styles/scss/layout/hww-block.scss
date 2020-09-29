@@ -13,21 +13,17 @@
         font-size: 42px;
         font-family: $dmSerifDisplay;
         text-align: center;
-        margin: 2em 2em 0 2em;
+        margin: 2em 0 1em 0;
         color: $veryLightGray;
 
     }
+    .how-we-work-link {
+        margin: 2em 0;
+    }
 }
-// @media screen and (min-width: 700px) {
-//     .how-we-work-block {
-//         width: 100%;
-//     }
-// }
 @media screen and (min-width: 700px) {
     .how-we-work-block {
         background-image: url('../../../images/bg-pattern-how-we-work-desktop.svg');
-        // height: max-content;
-        // width: 1320px;
         margin: 4em 4em;
         display: flex;
         flex-direction: row;
@@ -43,11 +39,6 @@
         }
     }
 }
-// @media screen and (min-width: 1440px) {
-//     .how-we-work-block {
-//         width: calc(1440px - 64px);
-//     }
-// }
 @media screen and (min-width: 1100px) {
     .how-we-work-block {
         width: calc(100% - 64px);

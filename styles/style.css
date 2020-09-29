@@ -59,7 +59,6 @@ table {
   font-family: "Karla", sans-serif;
   border: 1px solid #fafafa;
   padding: 10px 30px;
-  margin: 2em 0 4em 0;
   text-transform: uppercase;
   text-decoration: none;
   color: #fafafa;
@@ -77,6 +76,44 @@ main img {
   max-width: 100%;
 }
 
+@media screen and (min-width: 541px) {
+  main .hero {
+    order: 1;
+  }
+  main .intro-image {
+    order: 2;
+  }
+  main .were-different {
+    order: 3;
+  }
+  main .how-we-work-block {
+    order: 4;
+  }
+}
+@media screen and (min-width: 700px) {
+  .intro-image {
+    position: absolute;
+    z-index: 1;
+    top: 425px;
+    right: 150px;
+    max-width: 35%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  main .intro-image {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    z-index: 1;
+    max-width: 75%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  main .intro-image {
+    top: 150px;
+    right: 50px;
+  }
+}
 header {
   width: 100%;
   display: flex;
@@ -116,6 +153,9 @@ header img, header .mobile-icon {
   header img, header .menu {
     margin: 2em 4em;
   }
+  header .menu ul li {
+    margin: 0 1em;
+  }
 }
 .hero {
   background-color: #2d2640;
@@ -152,10 +192,89 @@ header img, header .mobile-icon {
   text-align: center;
   line-height: 1.6;
 }
+.hero .link {
+  margin: 2em 0 2em 3em;
+}
 
 @media screen and (min-width: 375px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+  }
   .hero .bg-pattern-right-mobile {
-    top: 320px;
+    top: 500px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .hero svg line {
+    transform: translateX(-35px);
+  }
+  .hero h1 {
+    margin-top: 20px;
+  }
+  .hero p {
+    margin: 4em 2em;
+    width: 550px;
+  }
+}
+@media screen and (min-width: 695px) {
+  .hero {
+    align-items: flex-start;
+  }
+  .hero svg line {
+    transform: translateX(-35px);
+  }
+  .hero h1 {
+    text-align: left;
+    margin: 20px 0 0 1em;
+  }
+  .hero p {
+    text-align: left;
+    margin: 3em 3em;
+    width: 650px;
+  }
+  .hero .link {
+    margin: 2em 0 2em 3em;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .hero svg line {
+    transform: translateX(-35px);
+  }
+  .hero h1 {
+    margin-top: 20px;
+  }
+  .hero p {
+    width: 450px;
+  }
+  .hero .bg-pattern-left-desktop {
+    position: absolute;
+    top: 420px;
+    left: 0;
+  }
+  .hero .bg-pattern-right-desktop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .hero svg line {
+    transform: translateX(2px);
+  }
+  .hero h1 {
+    margin: 20px 0 0 2em;
+  }
+  .hero p {
+    margin: 3em 3em 0 5em;
+    width: 550px;
+  }
+  .hero .link {
+    margin: 2em 0 2em 5em;
   }
 }
 .were-different {
@@ -164,6 +283,7 @@ header img, header .mobile-icon {
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin: 8em 0;
 }
 .were-different .wd-heading {
   display: flex;
@@ -209,6 +329,14 @@ header img, header .mobile-icon {
   color: #837d87;
 }
 
+@media screen and (min-width: 900px) {
+  .were-different .wd-heading {
+    align-self: flex-start;
+  }
+  .were-different .wd-heading h2 {
+    margin: 20px 0 0 1em;
+  }
+}
 @media screen and (min-width: 1125px) {
   .were-different .wd-heading {
     align-self: flex-start;
@@ -243,8 +371,11 @@ header img, header .mobile-icon {
   font-size: 42px;
   font-family: "DM Serif Display", serif;
   text-align: center;
-  margin: 2em 2em 0 2em;
+  margin: 2em 0 1em 0;
   color: #fafafa;
+}
+.how-we-work-block .how-we-work-link {
+  margin: 2em 0;
 }
 
 @media screen and (min-width: 700px) {
