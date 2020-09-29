@@ -51,7 +51,7 @@ table {
 }
 
 .noscroll {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .link {
@@ -132,15 +132,32 @@ header img, header .mobile-icon {
   }
   header .menu ul {
     display: flex;
+    align-items: center;
   }
   header .menu ul li {
     text-transform: uppercase;
     font-family: "Karla", sans-serif;
     color: #837d87;
     margin: 0 5px;
+    transition: all 0.2s ease;
   }
   header .menu ul li:nth-child(4) {
     margin: 0;
+  }
+  header .menu ul li:hover, header .menu ul li:active {
+    cursor: pointer;
+    color: #2b272f;
+  }
+  header .menu ul .last-item {
+    font-family: "Karla", sans-serif;
+    border: 1px solid #837d87;
+    padding: 10px 25px;
+    transition: all 0.2s ease;
+  }
+  header .menu ul .last-item:hover, header .menu ul .last-item:active {
+    background-color: #2b272f;
+    color: #fafafa;
+    border: 1px solid #2b272f;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -191,6 +208,11 @@ header img, header .mobile-icon {
 }
 .hero .link {
   margin: 2em 0 2em 3em;
+  transition: all 0.2s ease;
+}
+.hero .link:hover, .hero .link:active {
+  background-color: #fafafa;
+  color: #2d2640;
 }
 
 @media screen and (min-width: 375px) {
@@ -373,6 +395,11 @@ header img, header .mobile-icon {
 }
 .how-we-work-block .how-we-work-link {
   margin: 2em 0;
+  transition: all 0.2s ease;
+}
+.how-we-work-block .how-we-work-link:hover, .how-we-work-block .how-we-work-link:active {
+  background-color: #fafafa;
+  color: #2d2640;
 }
 
 @media screen and (min-width: 700px) {
@@ -432,8 +459,17 @@ footer .logo-and-icons .insure-logo {
 footer .logo-and-icons .social-media-icons {
   margin: 1em 0 2em 0;
 }
-footer .logo-and-icons .social-media-icons .icon {
+footer .logo-and-icons .social-media-icons svg {
   margin: 0 10px;
+}
+footer .logo-and-icons .social-media-icons svg:hover, footer .logo-and-icons .social-media-icons svg:active {
+  cursor: pointer;
+}
+footer .logo-and-icons .social-media-icons svg path {
+  transition: all 0.2s ease;
+}
+footer .logo-and-icons .social-media-icons svg path:active, footer .logo-and-icons .social-media-icons svg path:hover {
+  fill: #2b272f;
 }
 footer .footer-items {
   display: grid;

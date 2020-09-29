@@ -19,6 +19,11 @@
     }
     .how-we-work-link {
         margin: 2em 0;
+        transition: all 0.2s ease;
+        &:hover, &:active {
+            background-color: $veryLightGray;
+            color: $darkViolet;
+        }
     }
 }
 @media screen and (min-width: 700px) {

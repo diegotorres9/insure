@@ -29,8 +29,17 @@ footer {
         }
         .social-media-icons {
             margin: 1em 0 2em 0;
-            .icon {
+            svg {
                 margin: 0 10px;
+                &:hover, &:active {
+                    cursor: pointer;
+                }
+                path {
+                    transition: all 0.2s ease;
+                    &:active, &:hover {
+                        fill: $veryDarkViolet;
+                    }
+                }
             }
         }
     }
