@@ -34,7 +34,7 @@ header {
                 .last-item {
                     font-family: $karla;
                     border: 1px solid $darkGrayishViolet;
-                    padding: 10px 25px;
+                    padding: 5px 5px;
                     transition: all 0.2s ease;
                     &:hover, &:active {
                         background-color: $veryDarkViolet;
@@ -56,6 +56,9 @@ header {
             ul {
                 li {
                     margin: 0 1em;
+                }
+                .last-item {
+                    padding: 10px 25px;
                 }
             }
 
