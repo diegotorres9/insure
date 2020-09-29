@@ -51,8 +51,7 @@ table {
 }
 
 .noscroll {
-  overflow-y: hidden;
-  position: fixed;
+  overflow: hidden;
 }
 
 .link {
@@ -144,12 +143,10 @@ header img, header .mobile-icon {
     margin: 0;
   }
 }
-@media screen and (min-width: 700px) {
-  header .menu {
-    margin: 0 2em;
-  }
-}
 @media screen and (min-width: 1000px) {
+  header {
+    width: 100%;
+  }
   header img, header .menu {
     margin: 2em 4em;
   }

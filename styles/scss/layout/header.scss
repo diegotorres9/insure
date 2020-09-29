@@ -29,15 +29,16 @@ header {
         }
     }
 }
-@media screen and (min-width: 700px) {
-    header {
-        .menu { 
-            margin: 0 2em;
-        }
-    }
-}
+// @media screen and (min-width: 700px) {
+//     header {
+//         .menu { 
+//             margin: 0 2em;
+//         }
+//     }
+// }
 @media screen and (min-width: 1000px) {
     header {
+        width: 100%;
         img, .menu {
             margin: 2em 4em;
         }

@@ -4,14 +4,12 @@
     left: -9999px !important;
 }
 .noscroll {
-    overflow-y: hidden;
-    position: fixed;
+    overflow: hidden;
 }
 .link {
     font-family: $karla;
     border: 1px solid $veryLightGray;
     padding: 10px 30px;
-    // margin: 2em 0 4em 0;
     text-transform: uppercase;
     text-decoration: none;
     color: $veryLightGray;

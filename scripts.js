@@ -20,7 +20,6 @@ var menuIcon = document.querySelector('.mobile-icon');
 var mobileMenu = document.querySelector('.mobile-menu');
 var body = document.querySelector('body');
 menuIcon.addEventListener('click', function() {
-    // console.log('icon clicked');
     mobileMenu.classList.toggle('hide');
     body.classList.toggle('noscroll');
     if(mobileMenu.classList.contains('hide')){
@@ -28,7 +27,6 @@ menuIcon.addEventListener('click', function() {
     } else {
         menuIcon.src = "./images/icon-close.svg";
     }
-    
 });
 // ------------------------------------------------------
 // switch between menu icon and desktop menu when greater than 540px;
